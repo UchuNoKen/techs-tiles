@@ -14,7 +14,7 @@ const App = () => {
   return (
     <Provider store={createStore(reducers)}>
       <View style={{ flex: 1 }}>
-        <Header headerText="Tech Tiles" />
+        <Header headerText="Techs Tiles" />
         <LibraryList />
       </View>
     </Provider>
